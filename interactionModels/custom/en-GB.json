@@ -1,0 +1,164 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "greet my family",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": [
+            "open greet my family"
+          ]
+        },
+        {
+          "name": "WishIntent",
+          "slots": [
+            {
+              "name": "member",
+              "type": "member"
+            },
+            {
+              "name": "eventType",
+              "type": "eventType"
+            }
+          ],
+          "samples": [
+            "Greet  {member} {eventType}",
+            "Wish {member} {eventType}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Chatak"
+              }
+            },
+            {
+              "name": {
+                "value": "Charith"
+              }
+            },
+            {
+              "name": {
+                "value": "Pavkg"
+              }
+            },
+            {
+              "name": {
+                "value": "Pav"
+              }
+            },
+            {
+              "name": {
+                "value": "Pavan"
+              }
+            },
+            {
+              "name": {
+                "value": "Vadina"
+              }
+            },
+            {
+              "name": {
+                "value": "Bro"
+              }
+            },
+            {
+              "name": {
+                "value": "Mummy"
+              }
+            },
+            {
+              "name": {
+                "value": "Father"
+              }
+            },
+            {
+              "name": {
+                "value": "Daddy"
+              }
+            },
+            {
+              "name": {
+                "value": "Dad"
+              }
+            },
+            {
+              "name": {
+                "value": "Mom"
+              }
+            },
+            {
+              "name": {
+                "value": "Mother"
+              }
+            },
+            {
+              "name": {
+                "value": "Brother"
+              }
+            }
+          ],
+          "name": "member"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Wedding"
+              }
+            },
+            {
+              "name": {
+                "value": "Wedding Anniversary "
+              }
+            },
+            {
+              "name": {
+                "value": "Wedding Day"
+              }
+            },
+            {
+              "name": {
+                "value": "Birthday"
+              }
+            }
+          ],
+          "name": "eventType"
+        }
+      ]
+    }
+  },
+  "version": "13"
+}
