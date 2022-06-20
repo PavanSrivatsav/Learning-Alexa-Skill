@@ -16,19 +16,6 @@
           "samples": []
         },
         {
-          "name": "HelloWorldIntent",
-          "slots": [],
-          "samples": [
-            "hello",
-            "how are you",
-            "say hi world",
-            "say hi",
-            "hi",
-            "say hello world",
-            "say hello"
-          ]
-        },
-        {
           "name": "AMAZON.NavigateHomeIntent",
           "samples": []
         },
@@ -64,16 +51,6 @@
           "values": [
             {
               "name": {
-                "value": "Chatak"
-              }
-            },
-            {
-              "name": {
-                "value": "Charith"
-              }
-            },
-            {
-              "name": {
                 "value": "Pavkg"
               }
             },
@@ -90,11 +67,6 @@
             {
               "name": {
                 "value": "Vadina"
-              }
-            },
-            {
-              "name": {
-                "value": "Bro"
               }
             },
             {
@@ -131,6 +103,21 @@
               "name": {
                 "value": "Brother"
               }
+            },
+            {
+              "name": {
+                "value": "Chatak"
+              }
+            },
+            {
+              "name": {
+                "value": "Charith"
+              }
+            },
+            {
+              "name": {
+                "value": "Bro"
+              }
             }
           ],
           "name": "member"
@@ -144,16 +131,6 @@
             },
             {
               "name": {
-                "value": "Wedding Anniversary "
-              }
-            },
-            {
-              "name": {
-                "value": "Wedding Day"
-              }
-            },
-            {
-              "name": {
                 "value": "Birthday"
               }
             }
@@ -163,5 +140,5 @@
       ]
     }
   },
-  "version": "15"
+  "version": "16"
 }
