@@ -10,7 +10,7 @@ const LaunchRequestHandler = {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'LaunchRequest';
     },
     handle(handlerInput) {
-        const speakOutput = 'Hi Pavan, you can say Wish or Bye. Which would you like to try?';
+        const speakOutput = 'Hello Everyone, you can Wish anyone in family';
         return handlerInput.responseBuilder
             .speak(speakOutput)
             .reprompt(speakOutput)
@@ -46,9 +46,9 @@ const WishIntentHandler = {
         const slots = request.intent.slots;
         console.log("Slots are -> ", slots);
         if(slots.eventType.value.toLowerCase() === 'birthday') {
-            speakOutput = `Happy Birthday ${slots.member.value}`;
+            speakOutput = `Happy Birthday ${slots.member.value} ! We love you soo much. May god bless you with great health wealth and happiness`;
         } else if(slots.eventType.value.toLowerCase() === 'wedding') {
-            speakOutput = `Happy Wedding Anniversary ${slots.member.value}`;
+            speakOutput = `Happy Wedding Anniversary ${slots.member.value} ! We love you soo much. May you live a happy life together`;
         }
         return handlerInput.responseBuilder
             .speak(speakOutput)
